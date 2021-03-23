@@ -9,7 +9,13 @@ import './index.css';
       {props.value}
       </button>
     );
-  } 
+  }
+  
+  function PlayAgainButton(props){
+    return(
+      <button>Play Again</button>
+    );
+  }
   
   class Board extends React.Component {
 
@@ -40,17 +46,22 @@ import './index.css';
       );
     }
   }
+
   
+  const initialState = {
+    history: [{
+        squares: Array(9).fill(null),
+    }],
+    xIsNext: true,
+    stepNumber: 0,
+  };
+
   class Game extends React.Component {
+
+
     constructor(props){
       super(props);
-      this.state = {
-        history: [{
-            squares: Array(9).fill(null),
-      }],
-      xIsNext: true,
-      stepNumber: 0,
-      };
+      this.state = initialState;
     }
 
     handleClick(i){
@@ -111,6 +122,9 @@ import './index.css';
               squares={current.squares} 
               onClick= {i => this.handleClick(i)}
             />
+          </div>
+          <div class="play-again">
+          <PlayAgainButton state= {initialState}></PlayAgainButton>
           </div>
           <div className="game-info">
             <div>{ status }</div>

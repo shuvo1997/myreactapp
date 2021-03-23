@@ -1,6 +1,6 @@
 {
-  "homepage": "http://shuvo1997.github.io/myreactapp",
-  "name": "my-app",
+  "homepage": "http://shuvo1997.github.io/tictactoe_game",
+  "name": "tictactoe_game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
