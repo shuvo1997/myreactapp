@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/myreactapp/static/css/main.d653599f.chunk.css",
-    "main.js": "/myreactapp/static/js/main.f538fac7.chunk.js",
-    "main.js.map": "/myreactapp/static/js/main.f538fac7.chunk.js.map",
-    "runtime-main.js": "/myreactapp/static/js/runtime-main.61efaedf.js",
-    "runtime-main.js.map": "/myreactapp/static/js/runtime-main.61efaedf.js.map",
-    "static/js/2.c5c29ba4.chunk.js": "/myreactapp/static/js/2.c5c29ba4.chunk.js",
-    "static/js/2.c5c29ba4.chunk.js.map": "/myreactapp/static/js/2.c5c29ba4.chunk.js.map",
-    "index.html": "/myreactapp/index.html",
-    "static/css/main.d653599f.chunk.css.map": "/myreactapp/static/css/main.d653599f.chunk.css.map",
-    "static/js/2.c5c29ba4.chunk.js.LICENSE.txt": "/myreactapp/static/js/2.c5c29ba4.chunk.js.LICENSE.txt"
+    "main.css": "/tictactoe_game/static/css/main.f9586e7a.chunk.css",
+    "main.js": "/tictactoe_game/static/js/main.b2a64e58.chunk.js",
+    "main.js.map": "/tictactoe_game/static/js/main.b2a64e58.chunk.js.map",
+    "runtime-main.js": "/tictactoe_game/static/js/runtime-main.d08bba41.js",
+    "runtime-main.js.map": "/tictactoe_game/static/js/runtime-main.d08bba41.js.map",
+    "static/js/2.bb96a853.chunk.js": "/tictactoe_game/static/js/2.bb96a853.chunk.js",
+    "static/js/2.bb96a853.chunk.js.map": "/tictactoe_game/static/js/2.bb96a853.chunk.js.map",
+    "index.html": "/tictactoe_game/index.html",
+    "static/css/main.f9586e7a.chunk.css.map": "/tictactoe_game/static/css/main.f9586e7a.chunk.css.map",
+    "static/js/2.bb96a853.chunk.js.LICENSE.txt": "/tictactoe_game/static/js/2.bb96a853.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.61efaedf.js",
-    "static/js/2.c5c29ba4.chunk.js",
-    "static/css/main.d653599f.chunk.css",
-    "static/js/main.f538fac7.chunk.js"
+    "static/js/runtime-main.d08bba41.js",
+    "static/js/2.bb96a853.chunk.js",
+    "static/css/main.f9586e7a.chunk.css",
+    "static/js/main.b2a64e58.chunk.js"
   ]
 }
